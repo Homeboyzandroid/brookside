@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Brookside</string>
+        <string name="country_prompt">STOCK AVAILABLEs</string>
+
+    <string-array name="stocks">
+        <item>Stock A</item>
+        <item>Stock B</item>
+        <item>Stock C</item>
+        <item>Stock D</item>
+    </string-array>
 </resources>
