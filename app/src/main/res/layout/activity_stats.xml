@@ -3,13 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.faith.brookside.Stats">
+        tools:context="com.example.faith.brookside.Stats">
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/start"
-        android:id="@+id/imgmain"/>
+        android:background="@drawable/stats"
+        android:id="@+id/imgstart"/>
 
 </RelativeLayout>
-
-

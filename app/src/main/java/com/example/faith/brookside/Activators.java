@@ -6,18 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class StockAvailable extends AppCompatActivity {
+public class Activators extends AppCompatActivity {
     ImageView img;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stock_available);
+        setContentView(R.layout.activity_activators);
 
-        img = (ImageView)findViewById(R.id.imageView);
+        img = (ImageView)findViewById(R.id.activator);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), Schedule.class));
+                startActivity(new Intent(getApplicationContext(),StockAvailable.class));
             }
         });
     }
